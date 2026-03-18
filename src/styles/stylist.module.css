@@ -1,0 +1,21 @@
+.card{
+        background-color: #f0f3cb;
+    border: 1px solid #d8c7b8;
+    border-radius: 10px;
+    padding: 3rem;
+    margin-top: 5px;
+}
+
+.name{
+  font-weight: bold;
+    color: #4a0072;
+}
+
+.specialty{
+    color: #7e6a9e;
+    text-transform: uppercase;
+}
+
+.bio{
+    font-size: small;
+}

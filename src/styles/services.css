@@ -1,0 +1,68 @@
+.page{
+    margin: 0 auto;
+    max-width: 860px;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #1a1a2e;
+    color: rgb(238, 233, 233);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 60%;
+}
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    color: rgb(238, 233, 233);
+}
+.header p {
+    color: rgb(238, 233, 233);
+    opacity: 0.85;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.card{
+    background-color: #f9f6ff;
+    border: 1px;
+    border-radius: 30%;
+    padding: 1.5rem;
+}
+
+.card h3{
+    color: #1a1a2e;
+    margin-top: 0;
+}
+
+.price{
+    font-weight: bold;
+    color: #6a0572;
+    font-size: 1.2rem;
+}
+
+.btn{
+    background-color: #6a0572;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #1a1a2e;
+}
+
+.footer{
+    text-align: center;
+    color: gray;
+    font-size: small;
+    margin-top: 2rem;
+}
+
